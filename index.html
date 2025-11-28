@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran SMA Dharmawanita 1 Pare Boarding School 2025/2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pendaftaran Peserta Didik Baru</h1>
+    <h2>SMA Dharmawanita 1 Pare Boarding School</h2>
+    <p>Tahun Ajaran 2025 / 2026</p>
+</header>
+
+<section class="form-container">
+    <form id="formPendaftaran" action="https://formsubmit.co/YOUR-EMAIL-HERE" method="POST">
+
+        <!-- Pengaturan FormSubmit -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://your-username.github.io/your-repo/success.html">
+
+        <h3>Formulir Pendaftaran Resmi</h3>
+
+        <label>Nama Lengkap</label>
+        <input type="text" name="nama" required>
+
+        <label>Jenis Kelamin</label>
+        <select name="jk" required>
+            <option value="">-- pilih --</option>
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+        </select>
+
+        <label>NISN</label>
+        <input type="text" name="nisn" required>
+
+        <label>Tempat Lahir</label>
+        <input type="text" name="tempat_lahir" required>
+
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgl_lahir" required>
+
+        <label>Alamat Lengkap</label>
+        <textarea name="alamat" required></textarea>
+
+        <label>Asal Sekolah SMP</label>
+        <input type="text" name="sekolah_asal" required>
+
+        <label>Nama Orang Tua / Wali</label>
+        <input type="text" name="ortu" required>
+
+        <label>No. WA Orang Tua</label>
+        <input type="text" name="wa_ortu" required>
+
+        <label>Pilihan Jalur Pendaftaran</label>
+        <select name="jalur" required>
+            <option value="">-- pilih --</option>
+            <option>Reguler</option>
+            <option>Boarding School (Asrama)</option>
+            <option>Beasiswa</option>
+        </select>
+
+        <label>Pilihan Jurusan</label>
+        <select name="jurusan" required>
+            <option value="">-- pilih --</option>
+            <option>IPA</option>
+            <option>IPS</option>
+        </select>
+
+        <button type="submit">Kirim Pendaftaran</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 / 2026 SMA Dharmawanita 1 Pare | Boarding School</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
